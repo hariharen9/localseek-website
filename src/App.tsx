@@ -134,16 +134,20 @@ function App() {
             </h1>
             <p className="max-w-2xl mx-auto text-xl text-gray-400 md:text-2xl">
               Bring conversational AI directly to your development environment - 
-              completely locally, completely private.
+              completely locally, completely private with Visually Stunning UI 🚀.
             </p>
             <div className="flex flex-col items-center justify-center gap-4 pt-8 md:flex-row">
               <a href="#installation" 
                 className="px-8 py-4 text-lg font-semibold transition-all bg-green-600 rounded-full hover:bg-green-500 animate-glow">
                 Get Started
               </a>
-              <a href="https://github.com/hariharen9/localseek" 
-                className="px-8 py-4 text-lg font-semibold transition-all border rounded-full bg-white/5 hover:bg-white/10 border-green-500/20">
-                View on GitHub
+              <a href="https://marketplace.visualstudio.com/items?itemName=Hariharen.localseek" 
+                className="px-8 py-4 text-lg font-semibold transition-all bg-green-600 rounded-full hover:bg-green-500 animate-glow">
+                Install from VSCode Marketplace
+              </a>
+              <a href="https://github.com/hariharen9/localseek/releases" 
+                className="px-8 py-4 text-lg font-semibold transition-all bg-green-600 rounded-full hover:bg-green-500 animate-glow">
+                Install from GitHub
               </a>
             </div>
           </div>
@@ -231,7 +235,7 @@ function App() {
                 </li>
               </ol>
             </div>
-
+              
             <div className="p-8 rounded-2xl gradient-border card-hover">
               <h3 className="mb-4 text-2xl font-semibold">Method 2: Manual VSIX</h3>
               <ol className="space-y-4 text-gray-300">
